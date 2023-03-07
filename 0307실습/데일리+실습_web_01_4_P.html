@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer-box {
+      width : 400px;
+      height: 200px;
+      border: 2px solid rgb(36, 19, 19);
+      /* 추가 css 코드 작성 1 */
+		  /* 가운데 정렬 */
+      color:red;
+      background-color: #bbb;
+      text-align: center;
+    }
+		
+    .inner-box {
+      width : 200px;
+      height: 100px;
+			/* 추가 css 코드 작성 2 */
+			border :inherit;
+      /* border는상속받도록 */
+      color:initial;
+      text-align:initial 
+      /* 나머지는 상속 받지 않도록 */
+      /* border : 2px solid rgb(36,19,19);
+      color : black;
+      text-align: left; */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div>
+      <span>첫 번째</span>
+    </div>
+    <div class="inner-box">
+      <span>두 번째</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>열차 예매 사이트</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="My_Site.css">
+  </head>
+  <body>
+    <header>
+      <a href="#"><img src="logo.png"></a>
+      <nav>
+        <ul>
+          <li><a href="#">홈</a></li>
+          <li><a href="#">열차 검색</a></li>
+          <li><a href="#">열차 예매</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">마이페이지</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="search">
+        <h2>열차 검색</h2>
+        <form>
+          <div class="input-group">
+            <label for="departure">출발역</label>
+            <input type="text" id="departure" name="departure" placeholder="출발역을 입력하세요" required>
+          </div>
+          <div class="input-group">
+            <label for="arrival">도착역</label>
+            <input type="text" id="arrival" name="arrival" placeholder="도착역을 입력하세요" required>
+          </div>
+          <div class="input-group">
+            <label for="date">날짜</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="input-group">
+            <label for="time">시간</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+          <input type="submit" value="열차 검색">
+        </form>
+      </section>
+      <section id="banner">
+        <img src="banner.jpg">
+      </section>
+      <section id="featured">
+        <h2>인기 노선</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="route1.jpg">
+              <h3>경부선</h3>
+              <p>서울 ~ 부산</p>
+            </a>
