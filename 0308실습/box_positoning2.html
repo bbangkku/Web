@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  .big{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: solid black
+  }
+  .box{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      
+    }
+  
+  #red{
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    /* text-align: right; */
+  }
+  #yellow{
+    background-color: yellow;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  #green{
+    background-color: green;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+  }
+  #blue{
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }  
+  #pink{
+    background-color: pink;
+    position: absolute;
+    top : 0px
+  }  
+   
+  </style>
+</head>
+<body>
+  <div class="big">
+    <div class="box" id ="red"></div>
+    <div class="box" id ="yellow"></div>
+    <div class="box" id ="green"></div>
+    <div class="box" id ="blue"></div>
+    <div class="box" id ="pink"></div>
+  </div>
+
+</body>
+</html>
