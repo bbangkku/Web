@@ -1,0 +1,103 @@
+  .basic-container{
+      margin-bottom: 40px;
+      padding: 10px;
+      background-color: #ccc;
+    }
+    .flex-container{
+      display: flex;
+      margin-bottom: 40px;
+      padding: 10px;
+      background-color: #ccc;
+    }
+    .flex-item{
+      width: 50px;
+      text-align: center;
+      background-color: white;
+      border:3px solid #000;
+      margin: 10px;
+      padding: 15px;
+      
+    }
+    .flex-direction{
+      /* 기본값 좌>우 */
+      /* flex-direction: row; */
+      /* 우>좌 기준축 반대 방향으로 정렬 */
+      flex-direction: row-reverse;
+      /* 교차축을 기준으로 정렬 */
+      flex-direction: column;
+      /* 교차축을 기준으로 반대 방향으로 정렬 */
+      flex-direction: column-reverse;
+    }
+    .flex-center{
+      justify-content: end;
+    }
+    .flex-tmp1{
+      /* item 사이에 동일한 여백을 적용 */
+      /* 양 끝에 여백이 없음 */
+      justify-content: space-between;
+    }
+    .flex-tmp2{
+      /* item 사이에 동일한 여백을 적용 */
+      /* 양 끝에는 item 사이 여백의 1/2 */
+      /* 마진처럼 보임 */
+      justify-content: space-around;
+    }
+    .flex-tmp3{
+      /* 모든(양 끝, item 사이) 공백이 동일 */
+      justify-content: space-evenly;
+    }
+
+    .flex-tmp4{
+      align-items: stretch;
+      flex-wrap: wrap;
+      height: 130px;
+    }
+/* flex-wrap : 줄바꿈 설정 */
+    .flex-tmp5{
+      /* 줄바꿈을 하지 않는 것 */
+      /*  */
+      align-items: stretch;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      height: 130px;
+    }
+    .flex-tmp6{
+      align-items: stretch;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      height: 130px;
+    }
+
+    .grow{
+      flex-grow :1
+    }
+    .grow1{
+      flex-grow:1
+    }
+    .grow2{
+      flex-grow:2
+    }
+    .grow3{
+      flex-grow:3
+    }
+
+    .shrink{
+      flex-shrink:1
+    }
+
+    .shrink1{
+      flex-shrink:1
+    }
+    .shrink2{
+      flex-shrink:2
+    }
+    .shrink3{
+      flex-shrink:3
+    }
+    .shrink4{
+      flex-shrink:4
+    }
+    
+    .order3{
+      order:1
+    }

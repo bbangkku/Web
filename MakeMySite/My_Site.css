@@ -1,19 +1,24 @@
-/* body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 
 header {
-  background-color: #0070c0;
+  display: block;
+  background-color: #4E2F49;
   color: white;
   padding: 10px;
+  /* float: right; */
+  text-align: right;
+
 }
 
-nav {
-  background-color: #f0f0f0;
-  padding: 10px;
+.logo {
+  display: flex;
+  background-color: white;
+  padding: 2px;
+  text-align: right;
+  text-size-adjust: ;
+  
 }
+
 
 nav ul {
   list-style: none;
